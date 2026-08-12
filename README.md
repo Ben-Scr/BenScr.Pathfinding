@@ -1,3 +1,3 @@
 # AStarPathfinding
+A simple Raylib application that visualizes the A* pathfinding algorithm
 
-<img src="Docs/Preview.png" width="48%" alt="Preview">
