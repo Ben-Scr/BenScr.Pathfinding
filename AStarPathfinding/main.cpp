@@ -75,22 +75,22 @@ public:
         for (int y{}; y < NODE_ROW_AMOUNT; y++) {
             for (int x{}; x < NODE_ROW_AMOUNT; x++) {
                 auto* node = GetNode(x, y);
-                Color color = node->IsObstacle ? BLACK : GRAY;
+                Color color = node->IsObstacle ? BLACK : Color(150, 150, 150, 150);
 
                 if (node->IsClosed)
                     color = BLUE;
                 else if (node->IsOpen)
-                    color = ORANGE;
+                    color = DARKBLUE;
 
                 const int px = x * NODE_PX_SIZE;
                 const int py = y * NODE_PX_SIZE;
                 DrawRectangle(px, py, NODE_PX_SIZE, NODE_PX_SIZE, color);
-                DrawRectangleLines(px, py, NODE_PX_SIZE, NODE_PX_SIZE, DARKGRAY);
+                DrawRectangleLines(px, py, NODE_PX_SIZE, NODE_PX_SIZE, GRAY);
             }
         }
 
         for (const auto* node : m_finalPath) {
-            DrawRectangle(node->X * NODE_PX_SIZE, node->Y * NODE_PX_SIZE, NODE_PX_SIZE, NODE_PX_SIZE, YELLOW);
+            DrawRectangle(node->X * NODE_PX_SIZE, node->Y * NODE_PX_SIZE, NODE_PX_SIZE, NODE_PX_SIZE, ORANGE);
         }
 
         DrawRectangle(m_start->X * NODE_PX_SIZE, m_start->Y * NODE_PX_SIZE, NODE_PX_SIZE, NODE_PX_SIZE, GREEN);

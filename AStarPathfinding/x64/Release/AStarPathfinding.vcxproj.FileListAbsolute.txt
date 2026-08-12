@@ -1,0 +1,3 @@
+C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\x64\Release\raylib.dll
+C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\x64\Release\glfw3.dll
+C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\x64\Release\AStarPat.FF8171C5.Up2Date
