@@ -1,13 +1,1 @@
-﻿  main.cpp
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(37,37): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(37,34): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(77,41): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(77,38): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(137,24): warning C4244: "Argument": Konvertierung von "float" in "std::array<std::array<AStarAlgorithm::Node,20>,20>::size_type", möglicher Datenverlust
-C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\AStarPathfinding\main.cpp(137,27): warning C4244: "Argument": Konvertierung von "float" in "std::array<AStarAlgorithm::Node,20>::size_type", möglicher Datenverlust
-  Code wird generiert.
-  1 of 273 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
-  Codegenerierung ist abgeschlossen.
-  AStarPathfinding.vcxproj -> C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\x64\Release\AStarPathfinding.exe
+﻿  AStarPathfinding.vcxproj -> C:\Users\benso\source\repos\2026\Pending\AStarPathfinding\x64\Release\AStarPathfinding.exe
