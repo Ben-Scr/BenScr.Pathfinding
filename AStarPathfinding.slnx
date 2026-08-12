@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AStarPathfinding/AStarPathfinding.vcxproj" Id="0b54d579-355a-48f9-852b-10c6a97babf8" />
+</Solution>
