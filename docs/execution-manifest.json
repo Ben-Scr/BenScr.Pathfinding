@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "package_id": "BenScr.Pathfinding",
+  "version": "1.0.0",
+  "source_repository": "https://github.com/Ben-Scr/AStarPathfinding",
+  "source_commit": "ca7504d4ae0ef6f75c9f0c0a9b86061b87dc8430",
+  "source_visibility": "public",
+  "source_license": "MIT; unchanged LICENSE and identical LICENSE.txt",
+  "runtime_dependencies": [],
+  "contract_cases": 32,
+  "reference_searches": 720,
+  "verification_matrix": [
+    {
+      "host": "Windows x64",
+      "compiler": "MSVC v143",
+      "checks": "contracts, standalone header, example, relocated CMake, native NuGet Debug and Release",
+      "status": "contracts_header_example_passed_before_release_pack"
+    },
+    {
+      "host": "Ubuntu 24.04 x64",
+      "compiler": "GCC 14 and Clang 18",
+      "checks": "contracts, standalone header, example, relocated CMake, ASan and UBSan",
+      "status": "requires_run_evidence"
+    }
+  ],
+  "unverified": [
+    "macOS",
+    "ARM",
+    "x86",
+    "ThreadSanitizer",
+    "MSVC sanitizers"
+  ],
+  "release_evidence": "Exact commit, package hash, timestamp and actual checks are emitted to artifacts/verify-*/release-manifest.json.",
+  "publication": "not_inferred_from_local_or_ci_verification"
+}

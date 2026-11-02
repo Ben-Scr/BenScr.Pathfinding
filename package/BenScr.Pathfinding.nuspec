@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Pathfinding</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 weighted grid A* and Dijkstra pathfinding, exact integer costs, configurable diagonals, and bounded search. Native source distribution compiled with the consumer's toolchain.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Pathfinding</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Pathfinding" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native pathfinding astar dijkstra grid cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\pathfinding\grid.hpp" target="include\benscr\pathfinding" />
+    <file src="src\grid.cpp" target="src" />
+    <file src="package\BenScr.Pathfinding.props" target="build\native" />
+    <file src="package\BenScr.Pathfinding.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>
